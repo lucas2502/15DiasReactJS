@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import NextPLayer from './components/NextPlayer';
+import BoardCollab from './components/BoardCollab';
 
 const App = () => (
   <>
-
+    <NextPLayer/>
+    <BoardCollab wtd="9"/>
   </>
 )
 
